@@ -37,5 +37,7 @@ const morse = {
 	0: "-----",
 }
 
-module.exports = morse;
+if (typeof(module) != "undefined") {
+	module.exports = morse;
+}
 
